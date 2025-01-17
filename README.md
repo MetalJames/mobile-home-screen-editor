@@ -191,6 +191,10 @@ This should open the editor at `http://localhost:5173` or a similar port.
 - **Image-Load-Dependent Controls**:
    - Disable style options (e.g., corner radius, image fit mode) until the image is loaded.
 
+- **Comprehensive Testing**:
+
+   - Use proper testing with Jest + React Testing Library to verify component behavior, state management, and DOM updates.
+
 ---
 
 ## **Thank You**
