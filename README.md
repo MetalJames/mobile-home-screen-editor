@@ -170,7 +170,7 @@ This should open the editor at `http://localhost:5173` or a similar port.
 
 ### **Ideas for Enhancements**
 
-### This version was created as a home project and is not optimized for production. For a production-ready implementation, I would prioritize accessibility by adhering to WCAG standards, ensuring keyboard and screen reader compatibility, and providing inclusive navigation. Additionally, I would focus on optimizing performance, enhancing security measures (e.g., input validation and XSS prevention), implementing scalable state management, conducting extensive cross-browser and device testing, and thoroughly documenting the codebase for maintainability and collaboration.
+## This version was created as a home project and is not optimized for production. For a production-ready implementation, I would prioritize accessibility by adhering to WCAG standards, ensuring keyboard and screen reader compatibility, and providing inclusive navigation. Additionally, I would focus on optimizing performance, enhancing security measures (e.g., input validation and XSS prevention), implementing scalable state management, conducting extensive cross-browser and device testing, and thoroughly documenting the codebase for maintainability and collaboration.
 
 - **Implement Undo/Redo**:
    - Store a history of states in the reducer for revert and reapply functionality.
