@@ -1,0 +1,63 @@
+.carousel-portrait img {
+    width: 100%;
+    aspect-ratio: 3 / 4;
+    object-fit: cover;
+}
+
+.carousel-landscape img {
+    width: 100%;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+}
+
+.carousel-square img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+}
+
+.carousel-container .slick-prev,
+.carousel-container .slick-next {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 100%;
+    background: rgba(255, 255, 255, 0.6);
+    color: black;
+    position: absolute;
+    z-index: 2;
+    opacity: 0;
+    transition: opacity 0.3s ease-in-out, background 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.carousel-container .slick-prev {
+    left: 0;
+}
+
+.carousel-container .slick-next {
+    right: 0;
+}
+
+.carousel-container:hover .slick-prev,
+.carousel-container:hover .slick-next {
+    opacity: 1;
+    pointer-events: auto;
+}
+
+.carousel-container .slick-prev:hover,
+.carousel-container .slick-next:hover {
+    opacity: 1;
+    background: rgba(255, 255, 255, 0.8);
+}
+
+.carousel-container {
+    overflow: hidden;
+    position: relative;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    content: "";
+}
