@@ -170,19 +170,23 @@ This should open the editor at `http://localhost:5173` or a similar port.
 
 ### **Ideas for Enhancements**
 
+### This version was created as a home project and is not optimized for production. For a production-ready implementation, I would prioritize accessibility by adhering to WCAG standards, ensuring keyboard and screen reader compatibility, and providing inclusive navigation. Additionally, I would focus on optimizing performance, enhancing security measures (e.g., input validation and XSS prevention), implementing scalable state management, conducting extensive cross-browser and device testing, and thoroughly documenting the codebase for maintainability and collaboration.
+
 - **Implement Undo/Redo**:
    - Store a history of states in the reducer for revert and reapply functionality.
 
+- **Implement Order**
+   - Allow the customer to change the order of components.
+
 - **Enhance Accessibility**:
-   - Add `role="dialog"` and `aria-modal="true"` to modals.
    - Use labels with `htmlFor`.
    - Ensure WCAG-compliant color contrast.
 
 - **Comprehensive Testing**:
-   - Use Jest + React Testing Library to verify component behavior.
+   - Use Jest and React Testing Library to verify component behavior.
 
-- **Add Animations & Polish**:
-   - Subtle transitions, hover effects, and smoother carousel animations.
+- **Add UI Improvements & Polish**:
+   - Collaborate with a graphic designer to implement UI improvements in accordance with product requirements.
 
 - **Advanced Validation & Sanitization**:
    - Validate URLs (carousel images, CTA link).  
@@ -190,10 +194,6 @@ This should open the editor at `http://localhost:5173` or a similar port.
 
 - **Image-Load-Dependent Controls**:
    - Disable style options (e.g., corner radius, image fit mode) until the image is loaded.
-
-- **Comprehensive Testing**:
-
-   - Use proper testing with Jest + React Testing Library to verify component behavior, state management, and DOM updates.
 
 ---
 
