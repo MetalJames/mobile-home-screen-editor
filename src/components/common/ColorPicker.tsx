@@ -16,7 +16,6 @@ export const ColorPicker = (props: Props) => {
     const [feedbackMessage, setFeedbackMessage] = useState("");
     const [feedbackButtonLabel, setFeedbackButtonLabel] = useState("OK");
 
-    // Sync local state with external value
     useEffect(() => {
         setColor(value);
     }, [value]);
